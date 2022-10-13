@@ -79,7 +79,40 @@
         color: white;
         transition: 0.5s;
     }
+
+    .dropdown > button {
+        background-color: transparent;
+        border: 0px;
+        font-weight: bold;
+    }
+
+    .dropdown > button:hover {
+        text-decoration: none;
+        background-color: #d18c0c;
+        color: white;
+        transition: 0.5s;
+        border-radius: 0px;
+    }
     
+    .dropdown-menu {
+        background-color: #d18c0c !important;
+        border-radius: 0px !important;
+    }
+
+    .dropdown-menu a{
+        background-color: #d18c0c;
+        border-radius: 0px !important;
+    }
+
+    .dropdown-item {
+        font-weight: bold !important;
+    }
+
+    .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+        background-color: #d18c0c !important;
+        border-radius: 0px !important;
+    }
+ 
 }
 
 * {
@@ -107,7 +140,7 @@ header {
 
 #botao-hamburguer {
     text-align: right;
-    padding-top: 10px;
+    margin: auto;
 }
 
 .main-mobile {
