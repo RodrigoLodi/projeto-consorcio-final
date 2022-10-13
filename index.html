@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barroso & Nunes</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row no-gutters g-0">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-4" id="logo">
+                    <a href="#"><img src="estilo/imagens/header/logo.png" alt="logo" class="imagem-logo"></a>
+                </div>
+                <div class="col-2 col-sm-2 col-md-8 col-lg-8 col-xl-8">
+                    <div class="row">
+
+                    </div>
+                    <div class="row">
+                    
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-0 col-lg-0 col-xl-0" id="botao-hamburguer">
+                    <a href="#"><img src="estilo/imagens/header/menu.png" alt="botao-hamburguer" style="width: 40px;" onclick="clickMenu()"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-mobile" id="itens">
+            <ul>
+                <a href="#" class="lista"><li>Como funciona</li></a>
+                <a href="#" class="lista"><li>Onde estamos</li></a>
+                <a href="#" class="lista"><li>Feedbacks</li></a>
+                <a href="#" class="lista"><li>Fale conosco</li></a>
+                <a href="#" class="lista"><li>Agro</li></a> 
+            </ul>
+        </div>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') { 
+                itens.style.display = 'none'
+
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
