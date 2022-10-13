@@ -1,6 +1,44 @@
 @charset "UTF-8";
 
+@media (max-width: 991px) {
+    .link-redes-sociais-center {
+       display: none;
+    }
+    .link-navbar {
+        display: none;
+    }
+    .redes-sociais-mobile {
+        display: none;
+    }
+    .col-12-nav {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
+    .redes-sociais-mobile {
+        display: inline;
+        padding: 5px;
+    }
+    .link-navbar {
+        display: inline;
+        text-align: center;
+    }
+
+    .link-redes-sociais {
+        width: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        height: 100px;
+    }
+
+    #container {
+        height: 100px;
+    }
+
     #botao-hamburguer {
         display: none;
     }
@@ -10,33 +48,57 @@
         height: 30px;
     }
     .link-redes-sociais-center {
-        text-align: center;
-        padding-left: 10px;
         margin: auto;
     }
-}
+    .link-navbar {
+        margin: auto;
+    }
 
-@media (max-width: 767px) {
-    .link-redes-sociais {
+    .redes-sociais-mobile {
         display: none;
     }
+
+    .row-nav {
+        height: 50px;
+    }
+
+    .col-12-nav {
+        margin: auto;
+    }
+   
+    .col-12-nav > a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .navbar-personalizar:hover {
+        text-decoration: none;
+        background-color: #d18c0c;
+        color: white;
+        transition: 0.5s;
+    }
+    
 }
+
 * {
     padding: 0;
     margin: 0;
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgb(255, 173, 19), rgb(255, 200, 80));
+    background-image: linear-gradient(to top, rgb(255, 173, 19), rgb(255, 200, 80));
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.400);
 }
 
 #logo {
     text-align: center;
+    margin: auto;
 }
 
 .imagem-logo {
-    height: 50px;
+    height: 80px;
 }
 
 .imagem-logo-div {
@@ -71,7 +133,7 @@ header {
     text-decoration: none;
     text-align: center;
     color: white;
-    background-color: #FFC850;
+    background-color: #FFAD13;
     list-style: none;
     font-weight: bold;
 }
