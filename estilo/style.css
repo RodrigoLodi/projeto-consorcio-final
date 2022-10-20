@@ -195,4 +195,37 @@ header {
     margin-top: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.250);
+}
+
+#formulario > h2 {
+    padding-bottom: 15px;   
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#iname, #itel, #iemail, #icidade {
+    width: 85% !important;
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+}
+
+
+#simular {
+    width: 85% !important;
+    background-color: #CC8A0E;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    font-size: 1.5em;
+}
+
+#simular:hover {
+    background-color: white;
+    color: #CC8A0E;
+    transition: 0.2s;
+    cursor: pointer;
 }
