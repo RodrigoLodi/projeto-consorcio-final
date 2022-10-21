@@ -13,6 +13,11 @@
     .col-12-nav {
         display: none;
     }
+
+    #formulario {
+        margin: auto;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -188,8 +193,8 @@ header {
 }
 
 #formulario {
-    background-color: #FFAD13 !important;
-    width: 500px;
+    background-color: #ffb429 !important;
+    width: 485px;
     text-align: center;
     border-radius: 30px;
     margin-top: 40px;
@@ -228,4 +233,9 @@ header {
     color: #CC8A0E;
     transition: 0.2s;
     cursor: pointer;
+}
+
+#fundo-formulario {
+    background-color: #0f8dfc;
+    padding-bottom: 50px;
 }
