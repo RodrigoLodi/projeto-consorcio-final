@@ -17,7 +17,24 @@
     #formulario {
         margin: auto;
     }
+    
+    #div-main-img-menor {
+        display: none;
+    }
 
+    #div-main-img-maior {
+        display: none;
+    }
+
+    #div-main-fundo-mobile1 {
+
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    #div-main-fundo-mobile2 {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -32,6 +49,16 @@
 
     .link-redes-sociais {
         width: 30px;
+    }
+    #div-main-fundo-mobile1 {
+        display: none;
+    }
+
+    #div-main-fundo-mobile2 {
+        display: block;
+        width: 90%; 
+        margin-top: 20px;
+        margin: auto;
     }
 }
 
@@ -133,6 +160,10 @@
 
     #div-main-img-menor {
         display: block;
+    }
+
+    #div-main-fundo-mobile1, #div-main-fundo-mobile2 {
+        display: none;
     }
 }
 
