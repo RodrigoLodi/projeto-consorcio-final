@@ -122,6 +122,33 @@
         background-color: #d18c0c !important;
         border-radius: 0px !important;
     }
+
+    #div-main > img {
+        width: 500px;
+        height: 500px;
+    }
+    #div-main-img-maior {
+        display: none;
+    }
+
+    #div-main-img-menor {
+        display: block;
+    }
+}
+
+@media (min-width: 1250px) {
+    #div-main-img-menor {
+        display: none;
+    }
+
+    #div-main-img-maior {
+        display: block;
+    }
+
+    #div-main > img {
+        width: 600px;
+        height: 500px;
+    }
 }
 
 * {
@@ -236,6 +263,10 @@ header {
 }
 
 #fundo-formulario {
-    background-color: #0f8dfc;
+    background-color: #299bff;
     padding-bottom: 50px;
+}
+
+#div-main {
+    text-align: center;
 }
