@@ -314,3 +314,93 @@ header {
 #div-main {
     text-align: center;
 }
+
+#row-imoveis-main {
+    margin-top: 40px;
+}
+
+#row-imoveis-main > h2 {
+    color: #FFAD13;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+#row-imoveis-main > p > img {
+    margin-top: 10px;
+    width: 100px;
+}
+
+#coluna-casa-moderna {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#casa-moderna {
+    width: 400px;
+    margin: auto;   
+    border: 3px solid #FFAD13;
+    border-radius: 40px;
+}
+
+#casa-moderna > p > img {
+    width: 300px;
+}
+
+#coluna-casa-media {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#coluna-casa-media > p > img {
+    width: 250px;
+}
+
+#coluna-casa-pequena {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#coluna-casa-pequena > p > img {
+    width: 250px;
+}
+
+.escrita-credito-imoveis {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(208, 208, 208);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.valor-credito-imoveis {
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.botao-ver-parcela {
+    margin: auto;
+    margin-bottom: 15px;
+    border: 2px solid #FFAD13;
+    border-radius: 50px;
+    width: 180px;
+}
+
+.botao-ver-parcela:hover {
+    background-color: #FFAD13;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-ver-parcela-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.botao-ver-parcela-link:hover {
+    text-decoration: none;
+    color: black;
+    
+}
