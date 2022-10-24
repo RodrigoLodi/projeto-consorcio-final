@@ -196,13 +196,13 @@
 
 @media (min-width: 991px) and  (max-width: 1200px) {
     #casa-moderna, #casa-media, #casa-pequena {
-        width: 200px !important;
-        height: 400px !important;
+        width: 230px !important;
+        height: 370px !important;
     }
 
     .imoveis-imagem {
         width: 150px !important;
-        height: 180px !important; 
+        height: 160px !important; 
         margin-bottom: 15px !important;
     }
 
@@ -218,7 +218,22 @@
 
 @media (min-width: 1201px) {
     #casa-moderna, #casa-media, #casa-pequena {
-        width: 400px !important;
+        width: 300px !important;
+        height: 480px !important;
+    }
+
+    .escrita-credito-imoveis {
+        margin: 15px !important;
+    }
+
+    .valor-credito-imoveis {
+        margin: 15px !important;
+    }
+
+    .imoveis-imagem {
+        margin-bottom: 25px !important;
+        margin-top: 15px !important;
+        width: 280px !important;
     }
 }
 
@@ -234,6 +249,26 @@
     #div-main > img {
         width: 600px;
         height: 500px;
+    }
+}
+
+@media (min-width: 1500px) {
+    #casa-moderna, #casa-media, #casa-pequena {
+        width: 370px !important;
+        height: 540px !important;
+    }
+
+    .imoveis-imagem {
+        width: 350px !important;
+        height: 300px !important;
+    }
+
+    .escrita-credito-imoveis {
+        margin-bottom: 0px !important;
+    }
+
+    .valor-credito-imoveis {
+        margin-top: 0px !important;
     }
 }
 
