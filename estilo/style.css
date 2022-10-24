@@ -196,8 +196,24 @@
 
 @media (min-width: 991px) and  (max-width: 1200px) {
     #casa-moderna, #casa-media, #casa-pequena {
-        width: 325px !important;
+        width: 200px !important;
+        height: 400px !important;
     }
+
+    .imoveis-imagem {
+        width: 150px !important;
+        height: 180px !important; 
+        margin-bottom: 15px !important;
+    }
+
+    .escrita-credito-imoveis {
+        margin-top: 15px !important;
+    }
+
+    .valor-credito-imoveis {
+        margin-bottom: 15px !important;
+    }
+
 }
 
 @media (min-width: 1201px) {
@@ -356,7 +372,7 @@ header {
     height: 550px;
     margin: auto;   
     border: 3px solid #FFAD13;
-    border-radius: 40px;
+    border-radius: 25px;
 }
 
 #casa-moderna> p > img {
@@ -414,13 +430,13 @@ header {
     margin: auto;
     margin-bottom: 15px;
     padding: 10px;
-    border: 3px solid #FFAD13;
+    border: 2px solid #FFAD13;
     border-radius: 40px;
     width: 200px;
     height: 50px;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.5em;
 }
 
