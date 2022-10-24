@@ -403,8 +403,8 @@ header {
 }
 
 #casa-moderna, #casa-media, #casa-pequena {
-    width: 400px;
-    height: 550px;
+    width: 330px;
+    height: 490px;
     margin: auto;   
     border: 3px solid #FFAD13;
     border-radius: 25px;
@@ -447,7 +447,7 @@ header {
 }
 
 .escrita-credito-imoveis {
-    margin-top: 40px;
+    margin-top: 15px;
     margin-bottom: 0px;
     color: rgb(208, 208, 208);
     font-size: 1.2em;
@@ -455,7 +455,7 @@ header {
 }
 
 .valor-credito-imoveis {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: black;
     font-weight: bold;
     font-size: 1.7em;
