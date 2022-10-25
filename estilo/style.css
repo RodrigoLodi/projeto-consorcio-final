@@ -397,11 +397,15 @@ header {
     width: 100px;
 }
 
+.texto-main {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 #coluna-casa-moderna {
     margin-top: 30px;
     text-align: center;
 }
-
 #casa-moderna, #casa-media, #casa-pequena {
     width: 330px;
     height: 490px;
