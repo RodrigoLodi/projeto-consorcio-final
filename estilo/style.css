@@ -87,6 +87,11 @@
     #casa-moderna, #casa-media, #casa-pequena {
         width: 500px !important;
     }
+
+    #carro-hilux, #carro-corolla, #carro-onix {
+        width: 500px !important;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -214,6 +219,25 @@
         margin-bottom: 15px !important;
     }
 
+    #carro-hilux, #carro-corolla, #carro-onix {
+        width: 230px !important;
+        height: 370px !important;
+    }
+
+    .carro-imagem {
+        width: 150px !important;
+        height: 160px !important; 
+        margin-bottom: 15px !important;
+    }
+
+    .escrita-credito-carro {
+        margin-top: 15px !important;
+    }
+
+    .valor-credito-carro {
+        margin-bottom: 15px !important;
+    }
+
 }
 
 @media (min-width: 1201px) {
@@ -231,6 +255,25 @@
     }
 
     .imoveis-imagem {
+        margin-bottom: 25px !important;
+        margin-top: 15px !important;
+        width: 280px !important;
+    }
+
+    #carro-hilux, #carro-corolla, #carro-onix {
+        width: 300px !important;
+        height: 480px !important;
+    }
+
+    .escrita-credito-carro {
+        margin: 15px !important;
+    }
+
+    .valor-credito-carro {
+        margin: 15px !important;
+    }
+
+    .carro-imagem {
         margin-bottom: 25px !important;
         margin-top: 15px !important;
         width: 280px !important;
@@ -268,6 +311,25 @@
     }
 
     .valor-credito-imoveis {
+        margin-top: 0px !important;
+        font-size: 2.5em !important;
+    }
+
+    #carro-hilux, #carro-corolla, #carro-onix {
+        width: 370px !important;
+        height: 540px !important;
+    }
+
+    .carro-imagem {
+        width: 350px !important;
+        height: 300px !important;
+    }
+
+    .escrita-credito-carro {
+        margin-bottom: 0px !important;
+    }
+
+    .valor-credito-carro {
         margin-top: 0px !important;
         font-size: 2.5em !important;
     }
@@ -490,16 +552,82 @@ header {
 
 #row-carro-main {
     margin-top: 40px;
-    margin: auto;
 }
 
 #row-carro-main > h2 {
-    color: #299bff;
+    color: #FFAD13;
     font-weight: bolder;
     font-size: 2.5em;
 }
 
 #row-carro-main > p > img {
-    margin-top: 45px;
+    margin-top: 10px;
     width: 100px;
+}
+
+#coluna-carro-hilux {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#carro-hilux, #carro-corolla, #carro-onix {
+    width: 330px;
+    height: 490px;
+    margin: auto;   
+    border: 3px solid #FFAD13;
+    border-radius: 25px;
+}
+
+
+
+
+#carro-hilux > p > img {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 35px;
+}
+
+#carro-corolla > p > img {
+    width: 250px;
+    height: 240px;
+    margin-bottom: 35px;
+}
+
+#carro-onix> p > img {
+    width: 220px;
+    height: 240px;
+    margin-bottom: 35px;
+}
+
+#coluna-carro-corolla {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#coluna-carro-corolla > p > img {
+    width: 250px;
+}
+
+#coluna-carro-onix {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#coluna-carro-onix > p > img {
+    width: 250px;
+}
+
+.escrita-credito-carro {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: rgb(208, 208, 208);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.valor-credito-carro {
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.7em;
 }
