@@ -487,3 +487,19 @@ header {
     color: white;
     text-decoration: none;
 }
+
+#row-carro-main {
+    margin-top: 40px;
+    margin: auto;
+}
+
+#row-carro-main > h2 {
+    color: #299bff;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+#row-carro-main > p > img {
+    margin-top: 45px;
+    width: 100px;
+}
