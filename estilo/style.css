@@ -224,7 +224,19 @@
         height: 370px !important;
     }
 
-    .carro-imagem {
+    .carro-imagem-corolla {
+        width: 150px !important;
+        height: 160px !important; 
+        margin-bottom: 15px !important;
+    }
+
+    .carro-imagem-onix {
+        width: 150px !important;
+        height: 160px !important; 
+        margin-bottom: 15px !important;
+    }
+
+    .carro-imagem-hilux {
         width: 150px !important;
         height: 160px !important; 
         margin-bottom: 15px !important;
@@ -273,10 +285,17 @@
         margin: 15px !important;
     }
 
-    .carro-imagem {
-        margin-bottom: 25px !important;
+    .carro-imagem-hilux {
         margin-top: 15px !important;
         width: 280px !important;
+    }
+
+    .carro-imagem-corolla {
+        margin-top: 15px !important;
+    }
+
+    .carro-imagem-onix {
+        margin-top: 15px !important;
     }
 }
 
@@ -319,10 +338,27 @@
         width: 370px !important;
         height: 540px !important;
     }
+    
+    .tamanho-campo-carro {
+        height: 335px !important;
+    }
 
-    .carro-imagem {
-        width: 350px !important;
-        height: 300px !important;
+    .carro-imagem-corolla {
+        width: 330px !important;
+        height: 190px !important;
+        margin-top: 60px !important;
+    }
+
+    .carro-imagem-onix {
+        width: 330px !important;
+        height: 190px !important;
+        margin-top: 60px !important;
+    }
+
+    .carro-imagem-hilux {
+        width: 330px !important;
+        height: 190px !important;
+        margin-top: 60px !important;
     }
 
     .escrita-credito-carro {
@@ -528,7 +564,7 @@ header {
     font-size: 1.7em;
 }
 
-.botao-ver-parcela {
+.botao-ver-parcela-imoveis {
     margin: auto;
     margin-bottom: 15px;
     padding: 10px;
@@ -542,7 +578,7 @@ header {
     font-size: 1.5em;
 }
 
-.botao-ver-parcela:hover {
+.botao-ver-parcela-imoveis:hover {
     background-color: #FFAD13;
     cursor: pointer;
     transition: 0.5s;
@@ -550,12 +586,16 @@ header {
     text-decoration: none;
 }
 
+#row-carro {
+    text-align: center;
+}
+
 #row-carro-main {
     margin-top: 40px;
 }
 
 #row-carro-main > h2 {
-    color: #FFAD13;
+    color: #299bff;
     font-weight: bolder;
     font-size: 2.5em;
 }
@@ -563,6 +603,8 @@ header {
 #row-carro-main > p > img {
     margin-top: 10px;
     width: 100px;
+    margin: auto;
+    text-align: center;
 }
 
 #coluna-carro-hilux {
@@ -574,12 +616,9 @@ header {
     width: 330px;
     height: 490px;
     margin: auto;   
-    border: 3px solid #FFAD13;
+    border: 3px solid #299bff;
     border-radius: 25px;
 }
-
-
-
 
 #carro-hilux > p > img {
     width: 300px;
@@ -631,3 +670,26 @@ header {
     font-weight: bold;
     font-size: 1.7em;
 }
+
+.botao-ver-parcela-carro {
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #FFAD13;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.botao-ver-parcela-carro:hover {
+    background-color: #FFAD13;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
