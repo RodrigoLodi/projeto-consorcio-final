@@ -136,22 +136,22 @@
 
     .carro-imagem-corolla {
         width: 300px !important;
-        height: 200px !important;
-        margin-top: 30px !important;
+        height: 160px !important;
+        margin-top: 40px !important;
         margin-bottom: 60px !important;
     }
 
     .carro-imagem-onix {
-        width: 300px !important;
-        height: 200px !important;
+        width: 310px !important;
+        height: 160px !important;
         margin-top: 30px !important;
         margin-bottom: 60px !important;
     }
 
     .carro-imagem-hilux {
         width: 300px !important;
-        height: 210px !important;
-        margin-top: 25px !important;
+        height: 180px !important;
+        margin-top: 20px !important;
         margin-bottom: 45px !important;
     }
 
@@ -411,15 +411,15 @@
 
     .carro-imagem-corolla {
         width: 275px !important;
-        height: 170px !important;
-        margin-top: 40px !important;
+        height: 140px !important;
+        margin-top: 70px !important;
         margin-bottom: 70px !important;
     }
 
     .carro-imagem-onix {
         width: 275px !important;
-        height: 170px !important;
-        margin-top: 40px !important;
+        height: 150px !important;
+        margin-top: 60px !important;
         margin-bottom: 70px !important;
     }
 
@@ -512,20 +512,22 @@
 
     .carro-imagem-corolla {
         width: 330px !important;
-        height: 190px !important;
-        margin-top: 60px !important;
+        height: 160px !important;
+        margin-top: 100px !important;
+        margin-bottom: 70px!important;
     }
 
     .carro-imagem-onix {
         width: 330px !important;
-        height: 190px !important;
-        margin-top: 60px !important;
+        height: 170px !important;
+        margin-top: 90px !important;
+        margin-bottom: 70px !important;
     }
 
     .carro-imagem-hilux {
-        width: 330px !important;
+        width: 340px !important;
         height: 190px !important;
-        margin-top: 60px !important;
+        margin-top: 70px !important;
     }
 
     .escrita-credito-carro {
@@ -550,12 +552,6 @@
         width: 330px !important;
         height: 190px !important;
         margin-top: 40px !important;
-    }
-
-    .carro-imagem-onix {
-        width: 330px !important;
-        height: 190px !important;
-        margin-top: 60px !important;
     }
 
     .moto1-imagem {
