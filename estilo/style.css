@@ -34,15 +34,15 @@
     }
 
     .moto2-imagem {
-        width: 280px !important;
-        height: 200px !important;
+        width: 260px !important;
+        height: 220px !important;
         margin-top: 30px !important;
         margin-bottom: 40px !important;
     }
 
     .moto3-imagem {
-        width: 280px !important;
-        height: 210px !important;
+        width: 260px !important;
+        height: 220px !important;
         margin-top: 30px !important;
         margin-bottom: 30px !important;
     }
@@ -149,8 +149,8 @@
     }
 
     .carro-imagem-hilux {
-        width: 300px !important;
-        height: 180px !important;
+        width: 330px !important;
+        height: 220px !important;
         margin-top: 20px !important;
         margin-bottom: 45px !important;
     }
@@ -161,7 +161,7 @@
 
     .moto2-imagem {
         width: 300px !important;
-        height: 220px !important;
+        height: 230px !important;
         margin-top: 30px !important;
         margin-bottom: 40px !important;
     }

@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+@media (max-width: 767px) {
+    #formulario {
+        background-color: #ffb429 !important;
+        width: 370px;
+        text-align: center;
+        border-radius: 30px;
+        margin-top: 40px !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.250);
+    }
+
+    .carro-imagem-corolla {
+        width: 280px !important;
+        height: 130px !important;
+        margin-top: 30px !important;
+        margin-bottom: 60px !important;
+    }
+
+    .carro-imagem-onix {
+        width: 280px !important;
+        height: 130px !important;
+        margin-top: 30px !important;
+        margin-bottom: 60px !important;
+    }
+
+    .carro-imagem-hilux {
+        width: 280px !important;
+        height: 150px !important;
+        margin-top: 25px !important;
+        margin-bottom: 45px !important;
+    }
+
+    .moto2-imagem {
+        width: 260px !important;
+        height: 220px !important;
+        margin-top: 30px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .moto3-imagem {
+        width: 260px !important;
+        height: 220px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .moto1-imagem {
+        width: 280px !important;
+        height: 200px !important;
+        margin-top: 25px !important;
+        margin-bottom: 45px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .link-redes-sociais-center {
+       display: none;
+    }
+    .link-navbar {
+        display: none;
+    }
+    .redes-sociais-mobile {
+        display: none;
+    }
+    .col-12-nav {
+        display: none;
+    }
+
+    #formulario {
+        margin: auto;
+    }
+    
+    #div-main-img-menor {
+        display: none;
+    }
+
+    #div-main-img-maior {
+        display: none;
+    }
+
+    #div-main-fundo-mobile1 {
+
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    #div-main-fundo-mobile2 {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .redes-sociais-mobile {
+        display: inline;
+        padding: 5px;
+    }
+    .link-navbar {
+        display: inline;
+        text-align: center;
+    }
+
+    .link-redes-sociais {
+        width: 30px;
+    }
+    #div-main-fundo-mobile1 {
+        display: none;
+    }
+
+    #div-main-fundo-mobile2 {
+        display: block;
+        width: 90%; 
+        margin-top: 20px;
+        margin: auto;
+    }
+    #formulario {
+        background-color: #ffb429 !important;
+        width: 450px;
+        text-align: center;
+        border-radius: 30px;
+        margin-top: 40px !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.250);
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        height: 100px;
+    }
+
+    #container {
+        height: 100px;
+    }
+
+    #botao-hamburguer {
+        display: none;
+    }
+    
+    .link-redes-sociais{
+        width: 30px;
+        height: 30px;
+    }
+    .link-redes-sociais-center {
+        margin: auto;
+    }
+    .link-navbar {
+        margin: auto;
+    }
+
+    .redes-sociais-mobile {
+        display: none;
+    }
+
+    .row-nav {
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .col-12-nav {
+        margin: auto;
+    }
+   
+    .col-12-nav > a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .navbar-personalizar:hover {
+        text-decoration: none;
+        background-color: #CC8A0E;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .dropdown > button {
+        background-color: transparent;
+        border: 0px;
+        font-weight: bold;
+    }
+
+    .dropdown > button:hover {
+        text-decoration: none;
+        background-color: #CC8A0E;
+        color: white;
+        transition: 0.5s;
+        border-radius: 0px;
+    }
+    
+    .dropdown-menu {
+        background-color: #CC8A0E !important;
+        border-radius: 0px !important;
+    }
+
+    .dropdown-menu a{
+        background-color: #CC8A0E;
+        border-radius: 0px !important;
+    }
+
+    .dropdown-item {
+        font-weight: bold !important;
+        color: white !important;
+    }
+
+    .dropdown-item:hover {
+        color: black !important;
+    }
+
+    .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+        background-color: #d18c0c !important;
+        border-radius: 0px !important;
+    }
+
+    #div-main > img {
+        width: 500px;
+        height: 500px;
+    }
+    #div-main-img-maior {
+        display: none;
+    }
+
+    #div-main-img-menor {
+        display: block;
+    }
+
+    #div-main-fundo-mobile1, #div-main-fundo-mobile2 {
+        display: none;
+    }
+}
+
+@media (min-width: 991px) and  (max-width: 1200px) {
+    
+}
+
+@media (min-width: 1201px) {
+    
+}
+
+@media (min-width: 1250px) {
+    #div-main-img-menor {
+        display: none;
+    }
+
+    #div-main-img-maior {
+        display: block;
+    }
+
+    #div-main > img {
+        width: 600px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 1500px) {
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(255, 173, 19), rgb(255, 200, 80));
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.400);
+    padding: 0;
+
+}
+
+#logo {
+    text-align: center;
+    margin: auto;
+}
+
+.imagem-logo {
+    height: 80px;
+}
+
+.imagem-logo-div {
+    padding-top: 3px;
+}
+
+#botao-hamburguer {
+    text-align: right;
+    margin: auto;
+}
+
+.main-mobile {
+    display: none;
+    width: 100%;
+}
+
+.main-mobile > ul {
+    padding: 0px;
+}
+
+.main-mobile > ul > a {
+    text-decoration: none;
+}
+
+#itens {
+   background-color: #FFAD13; 
+}
+
+.lista {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #FFAD13;
+    list-style: none;
+    font-weight: bold;
+}
+
+.lista:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold
+}
+
+.barra-rgb {
+    background-image: linear-gradient(to right, rgb(255, 255, 93),rgb(255, 80, 80), rgb(170, 40, 170), rgb(65, 65, 255), rgb(0, 162, 255), rgb(113, 255, 113));
+    height: 7px;
+
+}
+
+
+#formulario > h2 {
+    padding-bottom: 15px;   
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#iname, #itel, #iemail, #icidade {
+    width: 85% !important;
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+}
+
+
+#simular {
+    width: 85% !important;
+    background-color: #CC8A0E;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    font-size: 1.5em;
+}
+
+#simular:hover {
+    background-color: white;
+    color: #CC8A0E;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#fundo-formulario {
+    background-color: #299bff;
+    padding-bottom: 50px;
+}
+
+#div-main {
+    text-align: center;
+}
+
+

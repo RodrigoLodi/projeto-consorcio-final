@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barroso & Nunes</title>
+    <link rel="stylesheet" href="estilo/style-teste.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/js/bootstrap.js">
+</head>
+<body>
+    <header>
+        <div class="container" id="container">
+            <div class="row no-gutters g-0" style="height: 100%;">
+                <div class="col-6 col-sm-6 col-md-3 col-lg-4 col-xl-4 imagem-logo-div" id="logo">
+                    <a href="#"><img src="estilo/imagens/header/logo.png" alt="logo" class="imagem-logo"></a>
+                </div>
+                <div class="col-2 col-sm-2 col-md-8 col-lg-8 col-xl-8">
+                    <div class="row no-gutters row-nav">
+                        <div class="col-12 col-12-nav" style="text-align: center;">
+                            <a href="#" class="link-navbar navbar-personalizar">Fale com a gente</a>
+                            <a href="#" class="link-navbar navbar-personalizar">Como funciona</a>
+                            <a href="#" class="link-navbar navbar-personalizar">Onde estamos</a>
+                            <a href="#" class="link-redes-sociais-center"><img src="estilo/imagens/header/facebook.png" alt="facebook" class="link-redes-sociais"></a>
+                            <a href="#" class="link-redes-sociais-center"><img src="estilo/imagens/header/instagram.png" alt="instagram" class="link-redes-sociais"></a>
+                            <a href="#" class="link-redes-sociais-center"><img src="estilo/imagens/header/whatsapp.png" alt="whatsapp" class="link-redes-sociais"></a>
+                        </div>
+                    </div>
+                    <div class="row no-gutters row-nav">
+                        <div class="col-12 col-12-nav" style="text-align: center;">
+                            <div class="dropdown" style="display: inline;">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Veículos
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Carros</a>
+                                  <a class="dropdown-item" href="#">Motos</a>
+                                  <a class="dropdown-item" href="#">Caminhões</a>
+                                </div>
+                            </div>
+                            <a href="#" class="navbar-personalizar">Agro</a>
+                            <a href="#" class="navbar-personalizar">Serviços</a>
+                            <a href="#" class="navbar-personalizar">Eletro e móveis</a>
+                            <a href="#" class="navbar-personalizar">Imóveis</a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-1 col-lg-0 col-xl-0" id="botao-hamburguer">
+                    <a href="#"><img src="estilo/imagens/header/menu.png" alt="botao-hamburguer" style="width: 40px;" onclick="clickMenu()"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="barra-rgb">
+            <p>.</p>
+        </div>
+        <div class="main-mobile" id="itens">
+            <ul style="margin-bottom: 0px;">
+                <a href="#" class="lista"><li>Carros</li></a>
+                <a href="#" class="lista"><li>Moto</li></a>
+                <a href="#" class="lista"><li>Caminhões</li></a>
+                <a href="#" class="lista"><li>Agro</li></a>
+                <a href="#" class="lista"><li>Serviços</li></a>
+                <a href="#" class="lista"><li>Eletro e móveis</li></a>
+                <a href="#" class="lista"><li>Imóveis</li></a>
+                <a href="#" class="lista"><li>Sobre o consórcio</li></a>
+                <a href="#" class="lista"><li>Como funciona</li></a>
+                <a href="#" class="lista"><li>Onde estamos</li></a>
+                <a href="#" class="lista"><li>Fale com a gente</li></a>
+            </ul>
+        </div>
+        <div class="row gx-0" id="fundo-formulario" style="padding: 0; width: 100%">
+            <div class="col-0 col-sm-0 col-md-0 col-lg-6 col-xl-6"  id="div-main">
+                <img src="estilo/imagens/main/fundo.png" alt="fundo" id="div-main-img-menor" style="margin: auto;">
+                <img src="estilo/imagens/main/fundo2.png" alt="fundo2" id="div-main-img-maior" style="margin: auto;">
+            </div>  
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style="text-align: center">
+                <div id="formulario">
+                    <h2>Faça sua simulaçao</h2>
+                    <form action="" method="get" autocomplete="on">
+                        <p>
+                            <label for="iname"></label>
+                            <input type="text" name="name" id="iname" placeholder="  * Nome" autocomplete="name">
+                        </p>
+                        <p>
+                            <label for="itel"></label>
+                            <input type="tel" name="tel" id="itel" autocomplete="tel" placeholder="  * Telefone">
+                        </p>
+                        <p>
+                            <label for="iemail"></label>
+                            <input type="email" name="email"   placeholder="  * e-mail" id="iemail">
+                        </p>
+                        <p>
+                            <label for="icidade"></label>
+                            <input type="text" name="cidade" id="icidade" placeholder="  * Cidade">
+                        </p>
+                        <p style="color: white;">
+                            Ao clicar em simular, concordo em receber o contato de um especialista de consórcios
+                        </p>
+                        <input type="submit" value="Simular" id="simular">
+                    </form>
+                </div>
+                <img src="estilo/imagens/main/fundo-menor.png" alt="fundo-menor" id="div-main-fundo-mobile1">
+                <img src="estilo/imagens/main/fundo3.png" alt="fundo" id="div-main-fundo-mobile2">
+            </div>
+        </div>
+        <div class="row"></div>
+            
+        </section>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') { 
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
