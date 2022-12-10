@@ -325,10 +325,11 @@ header {
 .categorias-main-imoveis {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .categorias-main-imoveis > img {
-    width: 110px;
+    width: 90px;
 }
 
 .categorias-main-imoveis > h2 {
@@ -343,7 +344,7 @@ header {
 
 .imoveis-div {
     width: 70%;
-    border: 2px solid #FFAD13;
+    border: 3px solid #FFAD13;
     text-align: center;
     margin: auto !important;
     border-radius: 20px;
@@ -368,7 +369,7 @@ header {
 
 .imoveis-div > a > button {
     margin-bottom: 20px;
-    border: 2px solid #FFAD13;
+    border: 3px solid #FFAD13;
     font-weight: 400;
     color: #be7c00;
     border-radius: 5px;
@@ -395,7 +396,7 @@ header {
 }
 
 .categorias-main-carros > img {
-    width: 110px;
+    width: 90px;
 }
 
 .categorias-main-carros > h2 {
@@ -410,7 +411,7 @@ header {
 
 .carros-div {
     width: 70%;
-    border: 2px solid rgb(34, 163, 255);
+    border: 3px solid rgb(34, 163, 255);
     text-align: center;
     margin: auto !important;
     border-radius: 20px;
@@ -435,7 +436,7 @@ header {
 
 .carros-div > a > button {
     margin-bottom: 20px;
-    border: 2px solid rgb(34, 163, 255);
+    border: 3   px solid rgb(34, 163, 255);
     font-weight: 400;
     color: rgb(2, 120, 205);
     border-radius: 5px;
