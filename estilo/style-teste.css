@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
-@media (max-width: 767px) {
-    
+@media (max-width: 500px) {
+    .escrita {
+        width: 325px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .escrita {
+        width: 450px !important;
+    }
 }
 
 @media (max-width: 991px) {
@@ -38,6 +46,21 @@
 
     #div-main-fundo-mobile2 {
         display: none;
+    }
+
+    #formulario {
+        background-color: #ffb429 !important;
+        width: 450px;
+        text-align: center;
+        border-radius: 30px;
+        margin-top: 40px !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.250);
+    }
+
+    .escrita {
+        width: 600px;
     }
 }
 
@@ -325,7 +348,7 @@ header {
 .categorias-main-imoveis {
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .categorias-main-imoveis > img {
@@ -336,6 +359,17 @@ header {
     color: #e4ae49;
     font-weight: bold;
     font-size: 400;
+}
+
+.escrita {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+
+.escrita > h3 {
+    margin-top: 20px;
+    font-size: 1.3em
 }
 
 .imoveis {
@@ -369,10 +403,10 @@ header {
 
 .imoveis-div > a > button {
     margin-bottom: 20px;
-    border: 3px solid #FFAD13;
+    border: 2px solid #FFAD13;
     font-weight: 400;
     color: #be7c00;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 130px;
     height: 35px;
     background-color: transparent;
@@ -392,6 +426,7 @@ header {
 
 .categorias-main-carros {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 
@@ -436,10 +471,10 @@ header {
 
 .carros-div > a > button {
     margin-bottom: 20px;
-    border: 3   px solid rgb(34, 163, 255);
+    border: 2px solid rgb(34, 163, 255);
     font-weight: 400;
     color: rgb(2, 120, 205);
-    border-radius: 5px;
+    border-radius: 10px;
     width: 130px;
     height: 35px;
     background-color: transparent;
@@ -457,3 +492,70 @@ header {
     text-decoration: none;
 }
 
+.categorias-main-motos {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.categorias-main-motos > img {
+    width: 90px;
+}
+
+.categorias-main-motos > h2 {
+    color: rgb(34, 163, 255);
+    font-weight: bold;
+    font-size: 400;
+}
+
+.motos {
+    margin-bottom: 30px;
+}
+
+.motos-div {
+    width: 70%;
+    border: 3px solid rgb(34, 163, 255);
+    text-align: center;
+    margin: auto !important;
+    border-radius: 20px;
+}
+
+.motos-div > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(128, 128, 128, 0.674);
+    font-weight: 600;
+}
+
+.motos-div > h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.motos-div > img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.motos-div > a > button {
+    margin-bottom: 20px;
+    border: 2px solid rgb(34, 163, 255);
+    font-weight: 400;
+    color: rgb(2, 120, 205);
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+}
+
+
+.motos-div > a > button:hover {
+    background-color: rgb(0, 119, 255);
+    border-color: rgb(0, 119, 255);
+    color: white;
+    transition: 0.3s;
+}
+
+.motos-div > a {
+    text-decoration: none;
+}
