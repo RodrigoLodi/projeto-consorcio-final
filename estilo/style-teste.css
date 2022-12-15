@@ -377,7 +377,7 @@ header {
 }
 
 .imoveis-div {
-    width: 70%;
+    width: 65%;
     border: 3px solid #FFAD13;
     text-align: center;
     margin: auto !important;
@@ -404,8 +404,8 @@ header {
 .imoveis-div > a > button {
     margin-bottom: 20px;
     border: 2px solid #FFAD13;
-    font-weight: 400;
-    color: #be7c00;
+    font-weight: 500;
+    color: black;
     border-radius: 10px;
     width: 130px;
     height: 35px;
@@ -422,6 +422,32 @@ header {
 
 .imoveis-div > a {
     text-decoration: none;
+}
+
+.botao-mais-opcoes-imoveis {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.botao-mais-opcoes-imoveis > button {
+    background-color: #FFAD13;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.150);
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.205);
+}
+
+.botao-mais-opcoes-imoveis > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-mais-opcoes-imoveis > button:hover {
+    background-color: orange;
+    transition: 0.5s;
 }
 
 .categorias-main-carros {
@@ -445,7 +471,7 @@ header {
 }
 
 .carros-div {
-    width: 70%;
+    width: 65%;
     border: 3px solid rgb(34, 163, 255);
     text-align: center;
     margin: auto !important;
@@ -472,8 +498,8 @@ header {
 .carros-div > a > button {
     margin-bottom: 20px;
     border: 2px solid rgb(34, 163, 255);
-    font-weight: 400;
-    color: rgb(2, 120, 205);
+    font-weight: 500;
+    color: black;
     border-radius: 10px;
     width: 130px;
     height: 35px;
@@ -490,6 +516,32 @@ header {
 
 .carros-div > a {
     text-decoration: none;
+}
+
+.botao-mais-opcoes-carros {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.botao-mais-opcoes-carros > button {
+    background-color: rgb(34, 163, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.150);
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.205);
+}
+
+.botao-mais-opcoes-carros > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-mais-opcoes-carros > button:hover {
+    background-color: rgb(0, 119, 255);
+    transition: 0.5s;
 }
 
 .categorias-main-motos {
@@ -513,7 +565,7 @@ header {
 }
 
 .motos-div {
-    width: 70%;
+    width: 65%;
     border: 3px solid rgb(34, 163, 255);
     text-align: center;
     margin: auto !important;
@@ -540,8 +592,8 @@ header {
 .motos-div > a > button {
     margin-bottom: 20px;
     border: 2px solid rgb(34, 163, 255);
-    font-weight: 400;
-    color: rgb(2, 120, 205);
+    font-weight: 500;
+    color: black;
     border-radius: 10px;
     width: 130px;
     height: 35px;
@@ -558,6 +610,32 @@ header {
 
 .motos-div > a {
     text-decoration: none;
+}
+
+.botao-mais-opcoes-motos {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.botao-mais-opcoes-motos > button {
+    background-color: rgb(34, 163, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.150);
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.205);
+}
+
+.botao-mais-opcoes-motos > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-mais-opcoes-motos > button:hover {
+    background-color: rgb(0, 17, 255);
+    transition: 0.5s;
 }
 
 .categorias-main-eletro {
@@ -581,7 +659,7 @@ header {
 }
 
 .eletro-div {
-    width: 70%;
+    width: 65%;
     border: 3px solid rgb(255, 47, 47);
     text-align: center;
     margin: auto !important;
@@ -608,8 +686,8 @@ header {
 .eletro-div > a > button {
     margin-bottom: 20px;
     border: 2px solid rgb(255, 47, 47);
-    font-weight: 400;
-    color: rgb(255, 47, 47);
+    font-weight: 500;
+    color: black;
     border-radius: 10px;
     width: 130px;
     height: 35px;
@@ -626,4 +704,125 @@ header {
 
 .eletro-div > a {
     text-decoration: none;
+}
+
+.botao-mais-opcoes-eletro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.botao-mais-opcoes-eletro > button {
+    background-color: rgb(255, 47, 47);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.150);
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.205);
+}
+
+.botao-mais-opcoes-eletro > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-mais-opcoes-eletro > button:hover {
+    background-color: rgb(230, 0, 0);
+    transition: 0.5s;
+}
+
+.categorias-main-servicos {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.categorias-main-servicos > img {
+    width: 160px;
+}
+
+.categorias-main-servicos > h2 {
+    color: rgb(112, 244, 95);
+    font-weight: bold;
+    font-size: 400;
+}
+
+.servicos {
+    margin-bottom: 30px;
+}
+
+.servicos-div {
+    width: 65%;
+    border: 3px solid rgb(112, 244, 95);
+    text-align: center;
+    margin: auto !important;
+    border-radius: 20px;
+}
+
+.servicos-div > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(128, 128, 128, 0.674);
+    font-weight: 600;
+}
+
+.servicos-div > h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.servicos-div > img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.servicos-div > a > button {
+    margin-bottom: 20px;
+    border: 2px solid rgb(112, 244, 95);
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+}
+
+
+.servicos-div > a > button:hover {
+    background-color: rgb(30, 255, 0);
+    border-color: rgb(30, 255, 0);
+    color: white;
+    transition: 0.3s;
+}
+
+.servicos-div > a {
+    text-decoration: none;
+}
+
+.botao-mais-opcoes-servicos {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.botao-mais-opcoes-servicos > button {
+    background-color: rgb(112,244,95);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.150);
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.205);
+    text-decoration: none;
+}
+
+.botao-mais-opcoes-servicos > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-mais-opcoes-servicos > button:hover {
+    background-color: rgb(30, 255, 0);
+    transition: 0.5s;
 }
