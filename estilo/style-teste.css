@@ -4,12 +4,31 @@
     .escrita {
         width: 325px !important;
     }
+
+    #formulario {
+        width: 340px !important;
+    }
+
+    .sobre > h2 {
+        font-size: 2em !important;
+    }
+
+    .sobre > p {
+        width: 330px !important;
+        margin: auto;
+    }
+
+    .depoimentos > h2 {
+        font-size: 2em !important;
+    }
+
+    .carousel-inner {
+        width: 340px !important;
+        margin: auto !important;
+    }
 }
 
 @media (max-width: 768px) {
-    .escrita {
-        width: 450px !important;
-    }
 }
 
 @media (max-width: 991px) {
@@ -859,7 +878,35 @@ header {
 }
 
 .depoimentos > h2 {
+    margin-bottom: 15px;
+    padding-top: 15px;
     color: white;
     font-weight: bold;
     font-size: 3em;
+}
+
+.imagem-carousel {
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(255, 173, 19);
+    text-align: center;
+}
+
+.titulo-footer {
+    color: white;
+    margin: 5px 0px 5px 0px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-planos > a {
+    text-decoration: none;
+    color: rgb(255, 221, 189);
+    font-weight: 600;
+}
+
+.footer-planos > a:hover {
+    text-decoration: none;
 }
